@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,40:1b263b,70:415a77,100:778da9&height=220&section=header&text=Attala%20Alif%20Ramadhani&fontSize=38&fontColor=ffffff&animation=fadeIn&subtext=System%20Information%20%E2%80%A2%20AI%20%26%20Data%20Analytics%20%E2%80%A2%20Web%20%26%20Mobile%20Developer&subfontSize=15&subtextDelay=1" alt="Header Banner" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,40:1b263b,70:415a77,100:778da9&height=220&section=header&text=Attala%20Alif%20Ramadhani&fontSize=38&fontColor=ffffff&animation=fadeIn&subtext=System%20Information%20%E2%80%A2%20AI%20%26%20Data%20Analytics%20%E2%80%A2%20Mobile%20%26%20Web%20Developer&subfontSize=15&subtextDelay=1" alt="Header Banner" width="100%"/>
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=%F0%9F%8E%93+System+Information+Student+%40+Universitas+Trunojoyo+Madura;%F0%9F%A7%A0+AI%2C+Deep+Learning+%26+Computer+Vision+Enthusiast;%F0%9F%92%BB+Passionate+about+Web+Development+(Laravel+%26+Modern+Stack);%F0%9F%93%B1+Mobile+App+Developer+(Flutter+%26+Android+Native);%F0%9F%93%8A+Data+Analytics+%26+Machine+Learning+Practitioner" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=%F0%9F%8E%93+System+Information+Student+%40+Universitas+Trunojoyo+Madura;%F0%9F%93%B1+Mobile+Engineer+(Flutter%2C+Kotlin%2C+Jetpack+Compose%2C+OpenCV);%F0%9F%A7%A0+AI%2C+Deep+Learning+%26+Computer+Vision+Enthusiast;%F0%9F%92%BB+Passionate+about+Web+Development+(Laravel+%26+Modern+Stack);%F0%9F%93%8A+Data+Analytics+%26+Machine+Learning+Practitioner" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -20,12 +20,12 @@
 
 Halo! Saya **Attala Alif Ramadhani Tri Hida (Atta)**, mahasiswa Program Studi **Sistem Informasi di Universitas Trunojoyo Madura (UTM)**. 
 
-Saya memiliki antusiasme tinggi dalam mengeksplorasi **Data Analytics & Artificial Intelligence (Deep Learning & Computer Vision)** serta merancang aplikasi **Web Development** dan **Mobile Development (Flutter & Android)** yang interaktif, fungsional, dan memberikan solusi nyata.
+Saya memiliki antusiasme tinggi dalam mengeksplorasi **Mobile Engineering (Flutter & Native Android Kotlin)**, **Data Analytics & Artificial Intelligence (Deep Learning & Computer Vision)**, serta merancang aplikasi **Web Development** yang fungsional, performan, dan berorientasi pada kebutuhan pengguna.
 
 - 🎓 **Pendidikan**: S1 Sistem Informasi — Universitas Trunojoyo Madura.
+- 📱 **Mobile Development**: Aktif membangun aplikasi mobile mutakhir lintas platform dengan **Flutter** (SmartScanner dengan OpenCV & Google ML Kit, NoteCraft, PDF Studio Pro) serta aplikasi Native Android dengan **Kotlin & Jetpack Compose** (AnyDrop Downloader, Melolo AdBlocker Local VPN).
 - 🧠 **AI & Deep Learning**: Meneliti optimasi model klasifikasi medis (ResNet vs. Vision Transformer pada histopatologi LC25000, Progressive Ablation Study CNN pada CT-Scan paru IQ-OTH/NCCD, dan stratifikasi risiko antenatal KSPR SKI 2023).
 - 💻 **Web Development**: Membangun aplikasi web dengan arsitektur MVC berbasis Laravel, PHP, REST API, serta integrasi sistem pembayaran online (Midtrans).
-- 📱 **Mobile Development**: Mengembangkan aplikasi lintas platform berbasis Flutter (NoteCraft, PDF Studio Pro, Bengkel App) dan aplikasi Android Native dengan Kotlin.
 - 📊 **Data Analytics**: Gemar mengolah, memvisualisasikan, dan menemukan pola menarik dari dataset menggunakan Python (Pandas, Plotly), Power BI, dan spreadsheet.
 
 ---
@@ -33,6 +33,18 @@ Saya memiliki antusiasme tinggi dalam mengeksplorasi **Data Analytics & Artifici
 ### 🛠️ Tech Stack & Skills
 
 <table>
+  <tr>
+    <td align="center" width="160"><strong>📱 Mobile Development</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/>
+      <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart"/>
+      <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
+      <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=android&logoColor=white" alt="Jetpack Compose"/>
+      <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
+      <img src="https://img.shields.io/badge/Google_ML_Kit-4285F4?style=flat-square&logo=google&logoColor=white" alt="ML Kit"/>
+      <img src="https://img.shields.io/badge/Android_SDK-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android SDK"/>
+    </td>
+  </tr>
   <tr>
     <td align="center" width="160"><strong>🧠 AI & Data Science</strong></td>
     <td>
@@ -58,15 +70,6 @@ Saya memiliki antusiasme tinggi dalam mengeksplorasi **Data Analytics & Artifici
       <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
       <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
       <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="160"><strong>📱 Mobile Development</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/>
-      <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart"/>
-      <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
-      <img src="https://img.shields.io/badge/Android_SDK-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android"/>
     </td>
   </tr>
   <tr>
@@ -96,7 +99,73 @@ Saya memiliki antusiasme tinggi dalam mengeksplorasi **Data Analytics & Artifici
 
 ### 🚀 Showcase Proyek Unggulan & Portofolio
 
-#### 🧠 1. Artificial Intelligence, Deep Learning & Medical Imaging
+#### 📱 1. Mobile Engineering (Flutter & Native Android)
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/attaramadhani/APK-smartscanner">📑 SmartScanner (OpenCV + ML Kit)</a></h3>
+      <p>Aplikasi pemindai dokumen cerdas 100% <em>offline-first</em> berbasis Flutter. Mengimplementasikan Computer Vision <strong>OpenCV</strong> untuk deteksi tepi otomatis, koreksi perspektif (<em>homography warp</em>), 7 filter dokumen, dan <strong>Google ML Kit</strong> untuk OCR teks latin, ekspor ke PDF searchable / Word / TXT, serta tanda tangan digital.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Google_ML_Kit-Offline_OCR-4285F4?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Zero_Internet_Permission-Privacy-success?style=flat-square"/>
+      </p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/attaramadhani/APK-downloader-video-dan-music">⚡ AnyDrop — Video & Music Downloader</a></h3>
+      <p>Aplikasi Android Native berbasis <strong>Kotlin & Jetpack Compose</strong> untuk mengunduh media dari 1000+ platform (YouTube, TikTok, Instagram, FB, X, SoundCloud, dll.) melalui mesin <em>yt-dlp</em>. Mendukung unduhan video (360p-4K), konversi audio musik (MP3/M4A), unduhan latar belakang dengan pause/resume, dan integrasi Telegram VIP channel.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Jetpack_Compose-Modern_UI-4285F4?style=flat-square"/>
+        <img src="https://img.shields.io/badge/yt--dlp-Media_Engine-red?style=flat-square"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/attaramadhani/APK-block-iklan-APK-Drama-China">🛡️ Melolo & Drama AdBlocker (Local VPN DNS)</a></h3>
+      <p>Aplikasi Android Native berbasis <strong>Android Local VpnService</strong> (Kotlin) untuk intersepsi dan pemblokiran iklan aplikasi baca novel / drama pendek (Melolo, Fizzo) pada tingkat DNS dengan latensi 0 ms tanpa memerlukan akses root.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Android_VpnService-Local_DNS-3DDC84?style=flat-square"/>
+        <img src="https://img.shields.io/badge/No_Root_Required-Secure-black?style=flat-square"/>
+      </p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/attaramadhani/APK-note">📝 NoteCraft — Multi-Dimensional Task Scheduler</a></h3>
+      <p>Aplikasi Catatan & To-Do List modern berbasis Flutter dengan Material 3. Mengusung penyimpanan lokal <em>offline-first</em> (SQLite), pengingat notifikasi berkala, dan penjadwalan multi-dimensi per item (Hari, Tanggal, Jam, Minggu Depan, Bulan Depan).</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Material_3-UI%2FUX-purple?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Offline_First-SQLite-003B57?style=flat-square"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/attaramadhani/APK-I-love-PDF-Clone">📄 PDF Studio Pro (iLovePDF Clone)</a></h3>
+      <p>Aplikasi manipulasi dokumen PDF komprehensif dengan 25+ tool (Merge, Split, Compress, Convert, OCR teks, tanda tangan digital e-Sign). Seluruh pemrosesan berjalan 100% lokal di perangkat (<em>offline-first</em>) menjaga privasi data pengguna.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
+        <img src="https://img.shields.io/badge/OCR_Engine-Tesseract-blueviolet?style=flat-square"/>
+        <img src="https://img.shields.io/badge/PDF_Core-Offline_Processing-darkgreen?style=flat-square"/>
+      </p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/attaramadhani/bengkelapp">🔧 Bengkel App (Flutter Mobile)</a></h3>
+      <p>Aplikasi mobile operasional bengkel terintegrasi dengan database cloud Supabase. Mendukung transaksi kasir pesanan suku cadang, pencatatan pekerjaan teknisi, rekap order, dan pemantauan riwayat servis.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Supabase-BaaS-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
+        <img src="https://img.shields.io/badge/POS-Mobile-orange?style=flat-square"/>
+      </p>
+    </td>
+  </tr>
+</table>
+
+#### 🧠 2. Artificial Intelligence, Deep Learning & Medical Imaging
 
 <table>
   <tr>
@@ -135,51 +204,6 @@ Saya memiliki antusiasme tinggi dalam mengeksplorasi **Data Analytics & Artifici
       <p>
         <img src="https://img.shields.io/badge/Deep_Learning-PyTorch-black?style=flat-square"/>
         <img src="https://img.shields.io/badge/Mini_ResNet-Skip_Connection-blue?style=flat-square"/>
-      </p>
-    </td>
-  </tr>
-</table>
-
-#### 📱 2. Mobile Development (Flutter & Native Android)
-
-<table>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/attaramadhani/APK-block-iklan-APK-Drama-China">🛡️ Melolo & Drama AdBlocker (Local VPN DNS)</a></h3>
-      <p>Aplikasi Android Native berbasis <strong>Android Local VpnService</strong> untuk intersepsi dan pemblokiran iklan aplikasi baca novel / drama pendek (Melolo, Fizzo) pada tingkat DNS dengan latensi 0 ms tanpa memerlukan akses root.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Android_VpnService-Local_DNS-3DDC84?style=flat-square"/>
-        <img src="https://img.shields.io/badge/No_Root_Required-Secure-black?style=flat-square"/>
-      </p>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/attaramadhani/APK-note">📝 NoteCraft — Multi-Dimensional Task Scheduler</a></h3>
-      <p>Aplikasi Catatan & To-Do List modern berbasis Flutter dengan Material 3. Mengusung penyimpanan lokal <em>offline-first</em>, pengingat notifikasi berkala, dan penjadwalan multi-dimensi per item (Hari, Tanggal, Jam, Minggu Depan, Bulan Depan).</p>
-      <p>
-        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Material_3-UI%2FUX-purple?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Offline_First-SQLite-003B57?style=flat-square"/>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/attaramadhani/APK-I-love-PDF-Clone">📄 PDF Studio Pro (iLovePDF Clone)</a></h3>
-      <p>Aplikasi manipulasi dokumen PDF komprehensif dengan 25+ tool (Merge, Split, Compress, Convert, OCR teks, tanda tangan digital e-Sign). Seluruh pemrosesan berjalan 100% lokal di perangkat (<em>offline-first</em>) menjaga privasi data pengguna.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
-        <img src="https://img.shields.io/badge/OCR_Engine-Tesseract-blueviolet?style=flat-square"/>
-        <img src="https://img.shields.io/badge/PDF_Core-Offline_Processing-darkgreen?style=flat-square"/>
-      </p>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/attaramadhani/bengkelapp">🔧 Bengkel App (Flutter Mobile)</a></h3>
-      <p>Aplikasi mobile operasional bengkel terintegrasi dengan database cloud Supabase. Mendukung transaksi kasir pesanan suku cadang, pencatatan pekerjaan teknisi, rekap order, dan pemantauan riwayat servis.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Supabase-BaaS-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
-        <img src="https://img.shields.io/badge/POS-Mobile-orange?style=flat-square"/>
       </p>
     </td>
   </tr>
