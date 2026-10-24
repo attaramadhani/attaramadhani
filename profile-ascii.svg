@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 492" width="100%" height="auto">
+  <defs>
+    <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="55%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+    <style>
+
+    @keyframes assembleFromTop {
+      0% {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      8% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      86% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      94%, 100% {
+        opacity: 0;
+        transform: translateY(-4px);
+      }
+    }
+    .bg {
+      fill: #090d16;
+      stroke: rgba(56, 189, 248, 0.25);
+      stroke-width: 1.2px;
+      rx: 14px;
+    }
+    .terminal-header {
+      fill: #161f30;
+    }
+    .terminal-dot {
+      r: 4.5;
+    }
+    .ascii-text {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 9.8px;
+      letter-spacing: 0.5px;
+      white-space: pre;
+      fill: url(#asciiGrad);
+      text-anchor: middle;
+      font-weight: 500;
+      animation: assembleFromTop 9.0s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+    }
+
+    .line-0 { animation-delay: 0.000s; }
+    .line-1 { animation-delay: 0.035s; }
+    .line-2 { animation-delay: 0.070s; }
+    .line-3 { animation-delay: 0.105s; }
+    .line-4 { animation-delay: 0.140s; }
+    .line-5 { animation-delay: 0.175s; }
+    .line-6 { animation-delay: 0.210s; }
+    .line-7 { animation-delay: 0.245s; }
+    .line-8 { animation-delay: 0.280s; }
+    .line-9 { animation-delay: 0.315s; }
+    .line-10 { animation-delay: 0.350s; }
+    .line-11 { animation-delay: 0.385s; }
+    .line-12 { animation-delay: 0.420s; }
+    .line-13 { animation-delay: 0.455s; }
+    .line-14 { animation-delay: 0.490s; }
+    .line-15 { animation-delay: 0.525s; }
+    .line-16 { animation-delay: 0.560s; }
+    .line-17 { animation-delay: 0.595s; }
+    .line-18 { animation-delay: 0.630s; }
+    .line-19 { animation-delay: 0.665s; }
+    .line-20 { animation-delay: 0.700s; }
+    .line-21 { animation-delay: 0.735s; }
+    .line-22 { animation-delay: 0.770s; }
+    .line-23 { animation-delay: 0.805s; }
+    .line-24 { animation-delay: 0.840s; }
+    .line-25 { animation-delay: 0.875s; }
+    .line-26 { animation-delay: 0.910s; }
+    .line-27 { animation-delay: 0.945s; }
+    .line-28 { animation-delay: 0.980s; }
+    .line-29 { animation-delay: 1.015s; }
+    .line-30 { animation-delay: 1.050s; }
+    .line-31 { animation-delay: 1.085s; }
+    .line-32 { animation-delay: 1.120s; }
+    .line-33 { animation-delay: 1.155s; }
+    .line-34 { animation-delay: 1.190s; }
+    .line-35 { animation-delay: 1.225s; }
+    .line-36 { animation-delay: 1.260s; }
+    .line-37 { animation-delay: 1.295s; }
+    .line-38 { animation-delay: 1.330s; }
+    .line-39 { animation-delay: 1.365s; }
+    </style>
+  </defs>
+
+  <!-- Terminal Card Background -->
+  <rect width="720" height="492" class="bg" />
+
+  <!-- Terminal Window Bar -->
+  <path d="M 0 14 C 0 6 6 0 14 0 L 706 0 C 714 0 720 6 720 14 L 720 24 L 0 24 Z" class="terminal-header" />
+  <circle cx="20" cy="12" class="terminal-dot" fill="#EF4444" />
+  <circle cx="34" cy="12" class="terminal-dot" fill="#F59E0B" />
+  <circle cx="48" cy="12" class="terminal-dot" fill="#10B981" />
+  <text x="50%" y="16" fill="#94A3B8" font-family="ui-monospace, monospace" font-size="9" text-anchor="middle" font-weight="600">attalaaliframadhanitrihida@profile: ~/ascii-art</text>
+
+  <!-- Animated ASCII Portrait Lines -->
+  <g>
+  <text x="50%" y="46.0" class="ascii-text line-0">                                   #%#%                                   </text>
+  <text x="50%" y="57.2" class="ascii-text line-1">                             %%@@@@@@%%@@@@@%%%##                         </text>
+  <text x="50%" y="68.4" class="ascii-text line-2">                         @%%@@@@@@%@@@@@%@%@@@@@@@@@%#                    </text>
+  <text x="50%" y="79.6" class="ascii-text line-3">                      %%@@@@@@%@@%%%%%@%%%@@@@@@@@@@@@@#                  </text>
+  <text x="50%" y="90.8" class="ascii-text line-4">                    %%%%%@@@@@@@%@@@@@@@@@@@@@@%@@@@@@@@%                 </text>
+  <text x="50%" y="102.0" class="ascii-text line-5">                 #@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@%               </text>
+  <text x="50%" y="113.2" class="ascii-text line-6">                %@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%             </text>
+  <text x="50%" y="124.4" class="ascii-text line-7">               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#           </text>
+  <text x="50%" y="135.6" class="ascii-text line-8">              @@@@@@@@@@@@@@#+++=-::::::-::-=-+=+*####@@@@@@@@@#          </text>
+  <text x="50%" y="146.8" class="ascii-text line-9">             @@@@@@@@%@@@*+-:::::'.....''''::::::::::-+%@@@@@@@@#         </text>
+  <text x="50%" y="158.0" class="ascii-text line-10">             @@@@@%*+==::::.................'''.''.'''-+@@@@@@@@%         </text>
+  <text x="50%" y="169.2" class="ascii-text line-11">              @@@@*::::::::::'.. . .   .. ..:::::----:-*@@@@@@@%          </text>
+  <text x="50%" y="180.4" class="ascii-text line-12">               @@#:'''-====---:::'.   ..':::-=-==++=--==+@@@@@@           </text>
+  <text x="50%" y="191.6" class="ascii-text line-13">               @@+:':==--=++##*+-''.   ..'+*###*=:-=++--=%@@@@            </text>
+  <text x="50%" y="202.8" class="ascii-text line-14">                @+-:'-:::::::-==-:'.   .''---::::::::-::=#@@@             </text>
+  <text x="50%" y="214.0" class="ascii-text line-15">             +=+@+-''''==:#*#-::::.'..'''-'::=##*'=-''::=+@@+=            </text>
+  <text x="50%" y="225.2" class="ascii-text line-16">            -:::=:-...'-::-=-:':'''....''':':-==--=='.''-+#::-::          </text>
+  <text x="50%" y="236.4" class="ascii-text line-17">             :..'''...':'':::. ':.''. .'''''.:::'':::..':==-'.':+         </text>
+  <text x="50%" y="247.6" class="ascii-text line-18">              ::':'..         ..'......''..   .      ..':--:':-+          </text>
+  <text x="50%" y="258.8" class="ascii-text line-19">               -':'.         ...:'..  ...'.'.        ..':---'--           </text>
+  <text x="50%" y="270.0" class="ascii-text line-20">               --''.          .'.:.   ..'.'..        ..::+-':-            </text>
+  <text x="50%" y="281.2" class="ascii-text line-21">                :-:.         ..::.''.':''::'.        ..-:=::-             </text>
+  <text x="50%" y="292.4" class="ascii-text line-22">                  ='.      ....''-:...'-:'..:..      ..=+                 </text>
+  <text x="50%" y="303.6" class="ascii-text line-23">                  +-..   ....'..:::'.':::'..'.'.    ..:=                  </text>
+  <text x="50%" y="314.8" class="ascii-text line-24">                  +:..   .'''::::':'''''':-:::''' ....-=                  </text>
+  <text x="50%" y="326.0" class="ascii-text line-25">                   +:'. ....:::::::''''::--::''''...':=                   </text>
+  <text x="50%" y="337.2" class="ascii-text line-26">                    =-:'...':::::::::::::::::'.....--=                    </text>
+  <text x="50%" y="348.4" class="ascii-text line-27">                     *=:'''..       ..     ...'''-==+                     </text>
+  <text x="50%" y="359.6" class="ascii-text line-28">                      *-:''''..     ..  .....'''::=                       </text>
+  <text x="50%" y="370.8" class="ascii-text line-29">                      #=':::''..         ..':::--+                        </text>
+  <text x="50%" y="382.0" class="ascii-text line-30">                    %@#:'''::''''''''''''::'::::-=#                       </text>
+  <text x="50%" y="393.2" class="ascii-text line-31">                   %%@+:''':'':''''''''''::::':':+@@                      </text>
+  <text x="50%" y="404.4" class="ascii-text line-32">                #%%%@@+:'...'''''.......'':'''..-+@@%%                    </text>
+  <text x="50%" y="415.6" class="ascii-text line-33">              %%%%%%@@+:........... ...........:=@%%%%@%                  </text>
+  <text x="50%" y="426.8" class="ascii-text line-34">        %%%@@%%%%%%#%%#:........        .......-*@@%%%%@@%%               </text>
+  <text x="50%" y="438.0" class="ascii-text line-35"> %%%%%@%@@%%%%%%%###%%%='. .....         .. ...=*%%%%%%%%@@@@@@@@%%       </text>
+  <text x="50%" y="449.2" class="ascii-text line-36">%%%%%%@@%%%%%%%#####%%#=:.   .   .       ......=*%%#%%%%%%%@%@@@@@@@@@%@  </text>
+  <text x="50%" y="460.4" class="ascii-text line-37">%%%%%%%%%%##########%%%*=::''.           .'...--#%%###%%%%%%%@@@@@%%%%@@@@</text>
+  <text x="50%" y="471.6" class="ascii-text line-38">%%%%%%%%####%%%%###%%%@*==-::::::::::::::::::-=+@%%###%%%%%%%%%@%%%%%%%%%%</text>
+  <text x="50%" y="482.8" class="ascii-text line-39">%%%%%%%%%%%%%%%%%%%%%%%#*****++=========+++***#%%%#%%%%%%%%%%%%%%%%%%%%%%%</text>
+  </g>
+</svg>
