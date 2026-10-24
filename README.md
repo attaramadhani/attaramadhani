@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,40:1b263b,70:415a77,100:778da9&height=220&section=header&text=Attala%20Alif%20Ramadhani%20Tri%20Hida&fontSize=34&fontColor=ffffff&animation=fadeIn&subtext=Information%20Systems%20%E2%80%A2%20Mobile%20Engineer%20%E2%80%A2%20AI%20%26%20Data%20Analytics%20%E2%80%A2%20Web%20Dev&subfontSize=15&subtextDelay=1" alt="Header Banner" width="100%"/>
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=%F0%9F%8E%93+Information+Systems+Student+%40+Universitas+Trunojoyo+Madura;%F0%9F%93%B1+Mobile+Engineer+(Flutter%2C+Kotlin%2C+Jetpack+Compose%2C+OpenCV);%F0%9F%A7%A0+AI%2C+Deep+Learning+%26+Computer+Vision+Researcher;%F0%9F%92%BB+Full-Stack+Web+Developer+(Laravel+%26+Modern+Stack);%F0%9F%93%8A+Data+Analytics+%26+Machine+Learning+Practitioner" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=%F0%9F%8E%93+Information+Systems+Student+%40+Universitas+Trunodjoyo+Madura;%F0%9F%93%B1+Mobile+Engineer+(Flutter%2C+Kotlin%2C+Jetpack+Compose%2C+OpenCV);%F0%9F%A7%A0+AI%2C+Deep+Learning+%26+Computer+Vision+Researcher;%F0%9F%92%BB+Full-Stack+Web+Developer+(Laravel+%26+Modern+Stack);%F0%9F%93%8A+Data+Analytics+%26+Machine+Learning+Practitioner" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -18,11 +18,11 @@
 
 ### 👨‍💻 About Me
 
-Hi there! I am **Attala Alif Ramadhani Tri Hida (Atta)**, an undergraduate Information Systems student at **Universitas Trunojoyo Madura (UTM)**.
+Hi there! I am **Attala Alif Ramadhani Tri Hida (Atta)**, an undergraduate Information Systems student at **Universitas Trunodjoyo Madura (UTM)**.
 
 I am passionate about engineering high-performance **Mobile Applications (Flutter & Native Android Kotlin)**, researching **Artificial Intelligence & Medical Image Analysis (Deep Learning & Computer Vision)**, and building robust **Web Applications** that solve practical, real-world problems.
 
-- 🎓 **Education**: B.S. in Information Systems — Universitas Trunojoyo Madura.
+- 🎓 **Education**: B.S. in Information Systems — Universitas Trunodjoyo Madura.
 - 📱 **Mobile Engineering**: Architecting cross-platform apps with **Flutter** (SmartScanner with OpenCV & Google ML Kit, NoteCraft, PDF Studio Pro) and Native Android with **Kotlin & Jetpack Compose** (AnyDrop Downloader, Melolo AdBlocker Local VPN).
 - 🧠 **AI & Deep Learning**: Investigating medical diagnostic modeling (ResNet vs. Vision Transformer on LC25000 lung histopathology, Progressive CNN Ablation Study on thorax CT scans IQ-OTH/NCCD, and 3-tier antenatal risk stratification adhering to KSPR standards with SKI 2023 data).
 - 💻 **Web Development**: Developing production-grade MVC web applications with Laravel, PHP, RESTful APIs, and online payment integrations (Midtrans Gateway).
