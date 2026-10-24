@@ -1,38 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 492" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 496" width="100%" height="auto">
   <defs>
-    <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8" />
-      <stop offset="55%" stop-color="#60A5FA" />
-      <stop offset="100%" stop-color="#818CF8" />
-    </linearGradient>
     <style>
 
-    @keyframes assembleFromTop {
-      0% {
-        opacity: 0;
-        transform: translateY(-10px);
-      }
-      8% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-      86% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-      94%, 100% {
-        opacity: 0;
-        transform: translateY(-4px);
-      }
-    }
     .bg {
-      fill: #090d16;
-      stroke: rgba(56, 189, 248, 0.25);
-      stroke-width: 1.2px;
-      rx: 14px;
+      fill: #ffffff;
+      stroke: #e2e8f0;
+      stroke-width: 1.5px;
+      rx: 12px;
     }
     .terminal-header {
-      fill: #161f30;
+      fill: #f8fafc;
+      stroke: #e2e8f0;
+      stroke-width: 1px;
     }
     .terminal-dot {
       r: 4.5;
@@ -42,106 +21,464 @@
       font-size: 9.8px;
       letter-spacing: 0.5px;
       white-space: pre;
-      fill: url(#asciiGrad);
+      fill: #0f172a;
       text-anchor: middle;
-      font-weight: 500;
-      animation: assembleFromTop 9.0s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+      font-weight: 600;
     }
 
-    .line-0 { animation-delay: 0.000s; }
-    .line-1 { animation-delay: 0.035s; }
-    .line-2 { animation-delay: 0.070s; }
-    .line-3 { animation-delay: 0.105s; }
-    .line-4 { animation-delay: 0.140s; }
-    .line-5 { animation-delay: 0.175s; }
-    .line-6 { animation-delay: 0.210s; }
-    .line-7 { animation-delay: 0.245s; }
-    .line-8 { animation-delay: 0.280s; }
-    .line-9 { animation-delay: 0.315s; }
-    .line-10 { animation-delay: 0.350s; }
-    .line-11 { animation-delay: 0.385s; }
-    .line-12 { animation-delay: 0.420s; }
-    .line-13 { animation-delay: 0.455s; }
-    .line-14 { animation-delay: 0.490s; }
-    .line-15 { animation-delay: 0.525s; }
-    .line-16 { animation-delay: 0.560s; }
-    .line-17 { animation-delay: 0.595s; }
-    .line-18 { animation-delay: 0.630s; }
-    .line-19 { animation-delay: 0.665s; }
-    .line-20 { animation-delay: 0.700s; }
-    .line-21 { animation-delay: 0.735s; }
-    .line-22 { animation-delay: 0.770s; }
-    .line-23 { animation-delay: 0.805s; }
-    .line-24 { animation-delay: 0.840s; }
-    .line-25 { animation-delay: 0.875s; }
-    .line-26 { animation-delay: 0.910s; }
-    .line-27 { animation-delay: 0.945s; }
-    .line-28 { animation-delay: 0.980s; }
-    .line-29 { animation-delay: 1.015s; }
-    .line-30 { animation-delay: 1.050s; }
-    .line-31 { animation-delay: 1.085s; }
-    .line-32 { animation-delay: 1.120s; }
-    .line-33 { animation-delay: 1.155s; }
-    .line-34 { animation-delay: 1.190s; }
-    .line-35 { animation-delay: 1.225s; }
-    .line-36 { animation-delay: 1.260s; }
-    .line-37 { animation-delay: 1.295s; }
-    .line-38 { animation-delay: 1.330s; }
-    .line-39 { animation-delay: 1.365s; }
+
+    @keyframes line_0 {
+      0%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-0 {
+      visibility: hidden;
+      animation: line_0 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_1 {
+      0%, 0.49% { visibility: hidden; }
+      0.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-1 {
+      visibility: hidden;
+      animation: line_1 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_2 {
+      0%, 0.99% { visibility: hidden; }
+      1.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-2 {
+      visibility: hidden;
+      animation: line_2 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_3 {
+      0%, 1.49% { visibility: hidden; }
+      1.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-3 {
+      visibility: hidden;
+      animation: line_3 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_4 {
+      0%, 1.99% { visibility: hidden; }
+      2.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-4 {
+      visibility: hidden;
+      animation: line_4 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_5 {
+      0%, 2.49% { visibility: hidden; }
+      2.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-5 {
+      visibility: hidden;
+      animation: line_5 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_6 {
+      0%, 2.99% { visibility: hidden; }
+      3.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-6 {
+      visibility: hidden;
+      animation: line_6 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_7 {
+      0%, 3.49% { visibility: hidden; }
+      3.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-7 {
+      visibility: hidden;
+      animation: line_7 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_8 {
+      0%, 3.99% { visibility: hidden; }
+      4.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-8 {
+      visibility: hidden;
+      animation: line_8 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_9 {
+      0%, 4.49% { visibility: hidden; }
+      4.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-9 {
+      visibility: hidden;
+      animation: line_9 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_10 {
+      0%, 4.99% { visibility: hidden; }
+      5.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-10 {
+      visibility: hidden;
+      animation: line_10 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_11 {
+      0%, 5.49% { visibility: hidden; }
+      5.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-11 {
+      visibility: hidden;
+      animation: line_11 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_12 {
+      0%, 5.99% { visibility: hidden; }
+      6.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-12 {
+      visibility: hidden;
+      animation: line_12 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_13 {
+      0%, 6.49% { visibility: hidden; }
+      6.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-13 {
+      visibility: hidden;
+      animation: line_13 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_14 {
+      0%, 6.99% { visibility: hidden; }
+      7.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-14 {
+      visibility: hidden;
+      animation: line_14 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_15 {
+      0%, 7.49% { visibility: hidden; }
+      7.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-15 {
+      visibility: hidden;
+      animation: line_15 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_16 {
+      0%, 7.99% { visibility: hidden; }
+      8.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-16 {
+      visibility: hidden;
+      animation: line_16 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_17 {
+      0%, 8.49% { visibility: hidden; }
+      8.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-17 {
+      visibility: hidden;
+      animation: line_17 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_18 {
+      0%, 8.99% { visibility: hidden; }
+      9.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-18 {
+      visibility: hidden;
+      animation: line_18 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_19 {
+      0%, 9.49% { visibility: hidden; }
+      9.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-19 {
+      visibility: hidden;
+      animation: line_19 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_20 {
+      0%, 9.99% { visibility: hidden; }
+      10.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-20 {
+      visibility: hidden;
+      animation: line_20 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_21 {
+      0%, 10.49% { visibility: hidden; }
+      10.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-21 {
+      visibility: hidden;
+      animation: line_21 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_22 {
+      0%, 10.99% { visibility: hidden; }
+      11.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-22 {
+      visibility: hidden;
+      animation: line_22 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_23 {
+      0%, 11.49% { visibility: hidden; }
+      11.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-23 {
+      visibility: hidden;
+      animation: line_23 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_24 {
+      0%, 11.99% { visibility: hidden; }
+      12.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-24 {
+      visibility: hidden;
+      animation: line_24 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_25 {
+      0%, 12.49% { visibility: hidden; }
+      12.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-25 {
+      visibility: hidden;
+      animation: line_25 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_26 {
+      0%, 12.99% { visibility: hidden; }
+      13.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-26 {
+      visibility: hidden;
+      animation: line_26 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_27 {
+      0%, 13.49% { visibility: hidden; }
+      13.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-27 {
+      visibility: hidden;
+      animation: line_27 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_28 {
+      0%, 13.99% { visibility: hidden; }
+      14.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-28 {
+      visibility: hidden;
+      animation: line_28 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_29 {
+      0%, 14.49% { visibility: hidden; }
+      14.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-29 {
+      visibility: hidden;
+      animation: line_29 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_30 {
+      0%, 14.99% { visibility: hidden; }
+      15.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-30 {
+      visibility: hidden;
+      animation: line_30 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_31 {
+      0%, 15.49% { visibility: hidden; }
+      15.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-31 {
+      visibility: hidden;
+      animation: line_31 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_32 {
+      0%, 15.99% { visibility: hidden; }
+      16.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-32 {
+      visibility: hidden;
+      animation: line_32 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_33 {
+      0%, 16.49% { visibility: hidden; }
+      16.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-33 {
+      visibility: hidden;
+      animation: line_33 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_34 {
+      0%, 16.99% { visibility: hidden; }
+      17.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-34 {
+      visibility: hidden;
+      animation: line_34 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_35 {
+      0%, 17.49% { visibility: hidden; }
+      17.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-35 {
+      visibility: hidden;
+      animation: line_35 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_36 {
+      0%, 17.99% { visibility: hidden; }
+      18.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-36 {
+      visibility: hidden;
+      animation: line_36 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_37 {
+      0%, 18.49% { visibility: hidden; }
+      18.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-37 {
+      visibility: hidden;
+      animation: line_37 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_38 {
+      0%, 18.99% { visibility: hidden; }
+      19.00%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-38 {
+      visibility: hidden;
+      animation: line_38 9.0s steps(1) infinite;
+    }
+
+    @keyframes line_39 {
+      0%, 19.49% { visibility: hidden; }
+      19.50%, 88% { visibility: visible; }
+      88.1%, 100% { visibility: hidden; }
+    }
+    .l-39 {
+      visibility: hidden;
+      animation: line_39 9.0s steps(1) infinite;
+    }
     </style>
   </defs>
 
-  <!-- Terminal Card Background -->
-  <rect width="720" height="492" class="bg" />
+  <!-- Clean White Card Background -->
+  <rect width="720" height="496" class="bg" />
 
-  <!-- Terminal Window Bar -->
-  <path d="M 0 14 C 0 6 6 0 14 0 L 706 0 C 714 0 720 6 720 14 L 720 24 L 0 24 Z" class="terminal-header" />
+  <!-- Terminal Window Bar (Light Theme) -->
+  <path d="M 0 12 C 0 5.37 5.37 0 12 0 L 708 0 C 714.63 0 720 5.37 720 12 L 720 24 L 0 24 Z" class="terminal-header" />
   <circle cx="20" cy="12" class="terminal-dot" fill="#EF4444" />
   <circle cx="34" cy="12" class="terminal-dot" fill="#F59E0B" />
   <circle cx="48" cy="12" class="terminal-dot" fill="#10B981" />
-  <text x="50%" y="16" fill="#94A3B8" font-family="ui-monospace, monospace" font-size="9" text-anchor="middle" font-weight="600">attalaaliframadhanitrihida@profile: ~/ascii-art</text>
+  <text x="50%" y="16" fill="#64748B" font-family="ui-monospace, monospace" font-size="9" text-anchor="middle" font-weight="600">attalaaliframadhanitrihida@profile: ~/portrait.ascii</text>
 
-  <!-- Animated ASCII Portrait Lines -->
+  <!-- Step-Assembled ASCII Portrait Lines (Snapping on from top to bottom) -->
   <g>
-  <text x="50%" y="46.0" class="ascii-text line-0">                                   #%#%                                   </text>
-  <text x="50%" y="57.2" class="ascii-text line-1">                             %%@@@@@@%%@@@@@%%%##                         </text>
-  <text x="50%" y="68.4" class="ascii-text line-2">                         @%%@@@@@@%@@@@@%@%@@@@@@@@@%#                    </text>
-  <text x="50%" y="79.6" class="ascii-text line-3">                      %%@@@@@@%@@%%%%%@%%%@@@@@@@@@@@@@#                  </text>
-  <text x="50%" y="90.8" class="ascii-text line-4">                    %%%%%@@@@@@@%@@@@@@@@@@@@@@%@@@@@@@@%                 </text>
-  <text x="50%" y="102.0" class="ascii-text line-5">                 #@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@%               </text>
-  <text x="50%" y="113.2" class="ascii-text line-6">                %@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%             </text>
-  <text x="50%" y="124.4" class="ascii-text line-7">               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#           </text>
-  <text x="50%" y="135.6" class="ascii-text line-8">              @@@@@@@@@@@@@@#+++=-::::::-::-=-+=+*####@@@@@@@@@#          </text>
-  <text x="50%" y="146.8" class="ascii-text line-9">             @@@@@@@@%@@@*+-:::::'.....''''::::::::::-+%@@@@@@@@#         </text>
-  <text x="50%" y="158.0" class="ascii-text line-10">             @@@@@%*+==::::.................'''.''.'''-+@@@@@@@@%         </text>
-  <text x="50%" y="169.2" class="ascii-text line-11">              @@@@*::::::::::'.. . .   .. ..:::::----:-*@@@@@@@%          </text>
-  <text x="50%" y="180.4" class="ascii-text line-12">               @@#:'''-====---:::'.   ..':::-=-==++=--==+@@@@@@           </text>
-  <text x="50%" y="191.6" class="ascii-text line-13">               @@+:':==--=++##*+-''.   ..'+*###*=:-=++--=%@@@@            </text>
-  <text x="50%" y="202.8" class="ascii-text line-14">                @+-:'-:::::::-==-:'.   .''---::::::::-::=#@@@             </text>
-  <text x="50%" y="214.0" class="ascii-text line-15">             +=+@+-''''==:#*#-::::.'..'''-'::=##*'=-''::=+@@+=            </text>
-  <text x="50%" y="225.2" class="ascii-text line-16">            -:::=:-...'-::-=-:':'''....''':':-==--=='.''-+#::-::          </text>
-  <text x="50%" y="236.4" class="ascii-text line-17">             :..'''...':'':::. ':.''. .'''''.:::'':::..':==-'.':+         </text>
-  <text x="50%" y="247.6" class="ascii-text line-18">              ::':'..         ..'......''..   .      ..':--:':-+          </text>
-  <text x="50%" y="258.8" class="ascii-text line-19">               -':'.         ...:'..  ...'.'.        ..':---'--           </text>
-  <text x="50%" y="270.0" class="ascii-text line-20">               --''.          .'.:.   ..'.'..        ..::+-':-            </text>
-  <text x="50%" y="281.2" class="ascii-text line-21">                :-:.         ..::.''.':''::'.        ..-:=::-             </text>
-  <text x="50%" y="292.4" class="ascii-text line-22">                  ='.      ....''-:...'-:'..:..      ..=+                 </text>
-  <text x="50%" y="303.6" class="ascii-text line-23">                  +-..   ....'..:::'.':::'..'.'.    ..:=                  </text>
-  <text x="50%" y="314.8" class="ascii-text line-24">                  +:..   .'''::::':'''''':-:::''' ....-=                  </text>
-  <text x="50%" y="326.0" class="ascii-text line-25">                   +:'. ....:::::::''''::--::''''...':=                   </text>
-  <text x="50%" y="337.2" class="ascii-text line-26">                    =-:'...':::::::::::::::::'.....--=                    </text>
-  <text x="50%" y="348.4" class="ascii-text line-27">                     *=:'''..       ..     ...'''-==+                     </text>
-  <text x="50%" y="359.6" class="ascii-text line-28">                      *-:''''..     ..  .....'''::=                       </text>
-  <text x="50%" y="370.8" class="ascii-text line-29">                      #=':::''..         ..':::--+                        </text>
-  <text x="50%" y="382.0" class="ascii-text line-30">                    %@#:'''::''''''''''''::'::::-=#                       </text>
-  <text x="50%" y="393.2" class="ascii-text line-31">                   %%@+:''':'':''''''''''::::':':+@@                      </text>
-  <text x="50%" y="404.4" class="ascii-text line-32">                #%%%@@+:'...'''''.......'':'''..-+@@%%                    </text>
-  <text x="50%" y="415.6" class="ascii-text line-33">              %%%%%%@@+:........... ...........:=@%%%%@%                  </text>
-  <text x="50%" y="426.8" class="ascii-text line-34">        %%%@@%%%%%%#%%#:........        .......-*@@%%%%@@%%               </text>
-  <text x="50%" y="438.0" class="ascii-text line-35"> %%%%%@%@@%%%%%%%###%%%='. .....         .. ...=*%%%%%%%%@@@@@@@@%%       </text>
-  <text x="50%" y="449.2" class="ascii-text line-36">%%%%%%@@%%%%%%%#####%%#=:.   .   .       ......=*%%#%%%%%%%@%@@@@@@@@@%@  </text>
-  <text x="50%" y="460.4" class="ascii-text line-37">%%%%%%%%%%##########%%%*=::''.           .'...--#%%###%%%%%%%@@@@@%%%%@@@@</text>
-  <text x="50%" y="471.6" class="ascii-text line-38">%%%%%%%%####%%%%###%%%@*==-::::::::::::::::::-=+@%%###%%%%%%%%%@%%%%%%%%%%</text>
-  <text x="50%" y="482.8" class="ascii-text line-39">%%%%%%%%%%%%%%%%%%%%%%%#*****++=========+++***#%%%#%%%%%%%%%%%%%%%%%%%%%%%</text>
+  <text x="50%" y="48.0" class="ascii-text l-0">                                   #%#%                                   </text>
+  <text x="50%" y="59.2" class="ascii-text l-1">                             %%@@@@@@%%@@@@@%%%##                         </text>
+  <text x="50%" y="70.4" class="ascii-text l-2">                         @%%@@@@@@%@@@@@%@%@@@@@@@@@%#                    </text>
+  <text x="50%" y="81.6" class="ascii-text l-3">                      %%@@@@@@%@@%%%%%@%%%@@@@@@@@@@@@@#                  </text>
+  <text x="50%" y="92.8" class="ascii-text l-4">                    %%%%%@@@@@@@%@@@@@@@@@@@@@@%@@@@@@@@%                 </text>
+  <text x="50%" y="104.0" class="ascii-text l-5">                 #@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@%               </text>
+  <text x="50%" y="115.2" class="ascii-text l-6">                %@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%             </text>
+  <text x="50%" y="126.4" class="ascii-text l-7">               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#           </text>
+  <text x="50%" y="137.6" class="ascii-text l-8">              @@@@@@@@@@@@@@#+++=-::::::-::-=-+=+*####@@@@@@@@@#          </text>
+  <text x="50%" y="148.8" class="ascii-text l-9">             @@@@@@@@%@@@*+-:::::'.....''''::::::::::-+%@@@@@@@@#         </text>
+  <text x="50%" y="160.0" class="ascii-text l-10">             @@@@@%*+==::::.................'''.''.'''-+@@@@@@@@%         </text>
+  <text x="50%" y="171.2" class="ascii-text l-11">              @@@@*::::::::::'.. . .   .. ..:::::----:-*@@@@@@@%          </text>
+  <text x="50%" y="182.4" class="ascii-text l-12">               @@#:'''-====---:::'.   ..':::-=-==++=--==+@@@@@@           </text>
+  <text x="50%" y="193.6" class="ascii-text l-13">               @@+:':==--=++##*+-''.   ..'+*###*=:-=++--=%@@@@            </text>
+  <text x="50%" y="204.8" class="ascii-text l-14">                @+-:'-:::::::-==-:'.   .''---::::::::-::=#@@@             </text>
+  <text x="50%" y="216.0" class="ascii-text l-15">             +=+@+-''''==:#*#-::::.'..'''-'::=##*'=-''::=+@@+=            </text>
+  <text x="50%" y="227.2" class="ascii-text l-16">            -:::=:-...'-::-=-:':'''....''':':-==--=='.''-+#::-::          </text>
+  <text x="50%" y="238.4" class="ascii-text l-17">             :..'''...':'':::. ':.''. .'''''.:::'':::..':==-'.':+         </text>
+  <text x="50%" y="249.6" class="ascii-text l-18">              ::':'..         ..'......''..   .      ..':--:':-+          </text>
+  <text x="50%" y="260.8" class="ascii-text l-19">               -':'.         ...:'..  ...'.'.        ..':---'--           </text>
+  <text x="50%" y="272.0" class="ascii-text l-20">               --''.          .'.:.   ..'.'..        ..::+-':-            </text>
+  <text x="50%" y="283.2" class="ascii-text l-21">                :-:.         ..::.''.':''::'.        ..-:=::-             </text>
+  <text x="50%" y="294.4" class="ascii-text l-22">                  ='.      ....''-:...'-:'..:..      ..=+                 </text>
+  <text x="50%" y="305.6" class="ascii-text l-23">                  +-..   ....'..:::'.':::'..'.'.    ..:=                  </text>
+  <text x="50%" y="316.8" class="ascii-text l-24">                  +:..   .'''::::':'''''':-:::''' ....-=                  </text>
+  <text x="50%" y="328.0" class="ascii-text l-25">                   +:'. ....:::::::''''::--::''''...':=                   </text>
+  <text x="50%" y="339.2" class="ascii-text l-26">                    =-:'...':::::::::::::::::'.....--=                    </text>
+  <text x="50%" y="350.4" class="ascii-text l-27">                     *=:'''..       ..     ...'''-==+                     </text>
+  <text x="50%" y="361.6" class="ascii-text l-28">                      *-:''''..     ..  .....'''::=                       </text>
+  <text x="50%" y="372.8" class="ascii-text l-29">                      #=':::''..         ..':::--+                        </text>
+  <text x="50%" y="384.0" class="ascii-text l-30">                    %@#:'''::''''''''''''::'::::-=#                       </text>
+  <text x="50%" y="395.2" class="ascii-text l-31">                   %%@+:''':'':''''''''''::::':':+@@                      </text>
+  <text x="50%" y="406.4" class="ascii-text l-32">                #%%%@@+:'...'''''.......'':'''..-+@@%%                    </text>
+  <text x="50%" y="417.6" class="ascii-text l-33">              %%%%%%@@+:........... ...........:=@%%%%@%                  </text>
+  <text x="50%" y="428.8" class="ascii-text l-34">        %%%@@%%%%%%#%%#:........        .......-*@@%%%%@@%%               </text>
+  <text x="50%" y="440.0" class="ascii-text l-35"> %%%%%@%@@%%%%%%%###%%%='. .....         .. ...=*%%%%%%%%@@@@@@@@%%       </text>
+  <text x="50%" y="451.2" class="ascii-text l-36">%%%%%%@@%%%%%%%#####%%#=:.   .   .       ......=*%%#%%%%%%%@%@@@@@@@@@%@  </text>
+  <text x="50%" y="462.4" class="ascii-text l-37">%%%%%%%%%%##########%%%*=::''.           .'...--#%%###%%%%%%%@@@@@%%%%@@@@</text>
+  <text x="50%" y="473.6" class="ascii-text l-38">%%%%%%%%####%%%%###%%%@*==-::::::::::::::::::-=+@%%###%%%%%%%%%@%%%%%%%%%%</text>
+  <text x="50%" y="484.8" class="ascii-text l-39">%%%%%%%%%%%%%%%%%%%%%%%#*****++=========+++***#%%%#%%%%%%%%%%%%%%%%%%%%%%%</text>
   </g>
 </svg>
