@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./profile-ascii-v2.svg" width="100%" alt="Attala Alif Ramadhani Tri Hida - ASCII Portrait" />
+  <img src="./profile-ascii-v3.svg" width="100%" alt="Attala Alif Ramadhani Tri Hida - ASCII Portrait" />
 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,40:1b263b,70:415a77,100:778da9&height=220&section=header&text=Attala%20Alif%20Ramadhani%20Tri%20Hida&fontSize=34&fontColor=ffffff&animation=fadeIn&subtext=Information%20Systems%20%E2%80%A2%20Mobile%20Engineer%20%E2%80%A2%20AI%20%26%20Data%20Analytics%20%E2%80%A2%20Web%20Dev&subfontSize=15&subtextDelay=1" alt="Header Banner" width="100%"/>
 
