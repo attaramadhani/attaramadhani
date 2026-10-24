@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="./profile-ascii-v4.svg" width="100%" alt="Attala Alif Ramadhani Tri Hida - ASCII Portrait" />
-
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,40:1b263b,70:415a77,100:778da9&height=220&section=header&text=Attala%20Alif%20Ramadhani%20Tri%20Hida&fontSize=34&fontColor=ffffff&animation=fadeIn&subtext=Information%20Systems%20%E2%80%A2%20Mobile%20Engineer%20%E2%80%A2%20AI%20%26%20Data%20Analytics%20%E2%80%A2%20Web%20Dev&subfontSize=15&subtextDelay=1" alt="Header Banner" width="100%"/>
 
   <a href="https://git.io/typing-svg">
@@ -14,6 +12,8 @@
     <a href="https://linktr.ee/attalaaliframadhanitrihida"><img src="https://img.shields.io/badge/Linktree-43E660?style=for-the-badge&logo=linktree&logoColor=white" alt="Linktree" /></a>
     <a href="mailto:attalaaliframadhanitrihida@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   </p>
+
+  <img src="./profile-ascii-v5.svg" width="100%" alt="Attala Alif Ramadhani Tri Hida - ASCII Portrait" />
 </div>
 
 ---
